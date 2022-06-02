@@ -1,0 +1,12 @@
+.headerContent {
+    padding: 20px 0px;
+}
+.headerContent h3 {
+    font-size: 22px;
+    font-weight: 600;
+    text-align: center;
+}
+.headerContent h3 a {
+    text-decoration: none;
+    color: inherit;
+}

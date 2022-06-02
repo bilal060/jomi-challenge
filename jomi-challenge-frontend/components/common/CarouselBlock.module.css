@@ -1,0 +1,9 @@
+.partnerSection {
+    background-color: #282828;
+    color: #ffffff;
+    padding: 25px 30px 15px;
+    margin-bottom: 30px; 
+}
+.partnerSection h3 {
+    margin:0;
+}

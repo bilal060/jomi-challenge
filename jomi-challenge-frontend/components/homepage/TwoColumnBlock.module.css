@@ -1,0 +1,32 @@
+.twoColumn_block {
+    padding: 20px 15px;
+}
+.twoColumn_block h3 {
+    font-size: 22px;
+    font-weight: 600;
+    text-align: center;
+}
+.twoColumn_block .textLeft {
+    text-align: left;
+}
+.grid_row {
+    margin: 30px 0px;
+    display: flex;
+    align-items: center;
+}
+.max_350 {
+    max-width: 350px;
+    width: 100%;
+}
+.mt_100 {
+    margin-top: 100px;
+}
+.second_column {
+    padding: 10px 40px;
+}
+.third_column {
+    padding: 10px 40px 10px 0px;
+}
+.buttonGroup {
+    margin: 30px 0px 10px;
+}

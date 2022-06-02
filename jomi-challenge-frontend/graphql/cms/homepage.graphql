@@ -1,0 +1,36 @@
+# Write your query or mutation here
+query HomePage {
+  homePage {
+    data {
+      attributes {
+        sections {
+          ... on ComponentCommonHeader {
+            id
+            # TODO: Complete this query
+          }
+          ... on ComponentCommonCarousel {
+            id
+            Item {
+              Image{
+                data {
+                  attributes {
+                    url
+                  }
+                }
+              }
+              ImageUrl
+            }
+            # TODO: Complete this query
+          }
+          ... on ComponentCommonTwoColumnBlock {
+              id
+              sectionTitle
+              sectionDescription
+              ImageUrl
+            # TODO: Complete this query
+          }
+        }
+      }
+    }
+  }
+}
